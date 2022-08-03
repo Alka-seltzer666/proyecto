@@ -1,6 +1,7 @@
 $color1: #eb13d8;
 $color2: #f2d60c;
 $color3: #00d2cd;
+$color4:rgb(255, 255, 255)d;
 
 
 .color__01 {
@@ -16,5 +17,5 @@ $color3: #00d2cd;
 }
 
 .color__04 {
-  color: #ffffff;
+  color: $color4;
 }

@@ -11,7 +11,7 @@
 }
 
 .color__04 {
-  color: #ffffff;
+  color: rgb(255, 255, 255) d;
 }
 
 /* textos */
@@ -43,6 +43,9 @@ footer ul {
 }
 footer ul li a {
   color: white;
+}
+footer ul li a:hover {
+  color: #f2d60c;
 }
 
 /*# sourceMappingURL=styles.css.map */
