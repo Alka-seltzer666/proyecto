@@ -1,0 +1,92 @@
+/* @import "colors";
+@import "text";
+@import "nesting"; */
+/* 1. Ejercicio mixin */
+/* 2. Ejercicio extend */
+.card__text-1, .card-1 {
+  font-weight: 900px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.card__text-2, .card-2 {
+  font-weight: 900px;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card__text-3, .card-3 {
+  font-weight: 900px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 1. Ejercicio maps */
+.btn-map {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+.btn-map > p {
+  color: #f412a5;
+}
+.btn-map:hover {
+  background-color: rgb(255, 255, 255);
+}
+.btn-map:hover > p {
+  color: #000000;
+}
+
+/* 4. Aplicando puntos anteriores */
+.card-1 {
+  background-color: rgba(20, 198, 229, 0.3333333333);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3333333333);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2980392157);
+}
+.card-1:hover {
+  background-color: #cefc00;
+}
+
+.card-2 {
+  background-color: rgba(216, 9, 252, 0.3333333333);
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3333333333);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2980392157);
+}
+.card-2:hover {
+  background-color: #f412a5;
+}
+
+.card-3 {
+  background-color: rgba(255, 40, 2, 0.3333333333);
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3333333333);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2980392157);
+}
+.card-3:hover {
+  background-color: #f29008;
+}
+
+/*# sourceMappingURL=styles__sass.css.map */
