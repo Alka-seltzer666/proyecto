@@ -15,3 +15,22 @@ footer {
   display: flex;
   padding: 80px 20px 80px 20px;
 }
+
+
+footer {
+    background-color: black;
+
+    ul {
+        list-style: none;
+
+        li a {
+            color: white;
+
+            &:hover {
+            color: #f2d60c;
+        }
+        }
+
+        
+    }
+}

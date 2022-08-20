@@ -36,20 +36,26 @@ section {
 
 
 /* Colores */
+
+$color1: #eb13d8;
+$color2: #f2d60c;
+$color3: #00d2cd;
+$color4: #ffffff;
+
 .color__01 {
-  color: #eb13d8;
+  color: $color1;
 }
 
 .color__02 {
-  color: #f2d60c;
+  color: $color2;
 }
 
 .color__03 {
-  color: #00d2cd;
+  color: $color3;
 }
 
 .color__04 {
-  color: #ffffff;
+  color: $color4
 }
 
 /* textos */
