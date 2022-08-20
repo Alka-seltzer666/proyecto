@@ -1,0 +1,20 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alka-seltzer666/proyecto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alka-seltzer666/proyecto/issues"
+  },
+  "homepage": "https://github.com/Alka-seltzer666/proyecto#readme"
+}

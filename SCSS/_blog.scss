@@ -1,0 +1,26 @@
+/* BLOG */
+
+.article_cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+
+}
+
+.article_item {
+  background-color: beige;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  -webkit-box-shadow: 11px -5px 19px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px -5px 19px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px -5px 19px -11px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article_item img {
+  border-radius: 10px;
+}

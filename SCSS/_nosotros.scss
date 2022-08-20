@@ -1,0 +1,16 @@
+
+/* about */
+.about {
+  grid-area: about;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Nosotros */
+
+.leads {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
