@@ -396,6 +396,14 @@ footer ul li a:hover {
     gap: 20px;
     margin-top: 30px;
   }
+  #country {
+    width: 80%;
+  }
+  .form {
+    background-color: rgb(231, 228, 228);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+  }
   /* container */
   /*  .container {
     width: 95%;
@@ -413,6 +421,9 @@ footer ul li a:hover {
     grid-template-areas: "header" "hero" "cards_section" "about" "services" "footer";
   }
   #img-us {
+    width: 100%;
+  }
+  #img-us2 {
     width: 100%;
   }
   /* Hero */

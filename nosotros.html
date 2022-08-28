@@ -11,6 +11,9 @@
     <meta http-equiv="expires" content="43200" />
     <!-- Estilos CSS-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet" />
     <!-- Fontawesome íconos -->
@@ -27,13 +30,36 @@
         <nav class="container">
             <a href="index.html"><img src="img/logos/punto_apps.png" alt="logo" /></a>
             <ul id="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</i></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Escríbenos</a></li>
-                <li><a href="https://wa.link/vcthey" target="_blank" rel="noopener noreferrer"><button class="btn-1">¿Tienes un proyecto?</button></a></li>
+                <li><a class="text-light text-decoration-none" href="index.html">Inicio</a></li>
+                <li><a class="text-light text-decoration-none" href="servicios.html">Servicios</i></li>
+                <li><a class="text-light text-decoration-none" href="nosotros.html">Nosotros</a></li>
+                <li><a class="text-light text-decoration-none" href="blog.html">Blog</a></li>
+                <li><a class="text-light text-decoration-none" href="contacto.html">Escríbenos</a></li>
+                <li><a class="text-light text-decoration-none" href="https://wa.link/vcthey" target="_blank" rel="noopener noreferrer"><button class="btn-1">¿Tienes un proyecto?</button></a></li>
             </ul>
+
+            <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">PuntoApps</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <ul class="list-group">
+                            <li><a class=" text-decoration-none" href="index.html">Inicio</a></li>
+                            <li><a class=" text-decoration-none" href="servicios.html">Servicios</i></li>
+                            <li><a class=" text-decoration-none" href="nosotros.html">Nosotros</a></li>
+                            <li><a class=" text-decoration-none" href="blog.html">Blog</a></li>
+                            <li><a class=" text-decoration-none" href="contacto.html">Escríbenos</a></li>
+                            <li><a class=" text-decoration-none" href="https://wa.link/vcthey" target="_blank" rel="noopener noreferrer"><button class="btn-1">¿Tienes un proyecto?</button></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
         <!-- Menú navegación ends -->
     </header>
@@ -43,20 +69,25 @@
         <!-- Botón Whastapp ends -->
 
         <div class="container">
+            <div class="us animate__animated animate__fadeInDown animate__slow d-lg-none img-fluid">
+                <img id="img-us2" src="img/nosotros/01.png" alt="Hombre sonriente mirando fijamente">
+            </div>
             <div class="leads ">
                 <div>
                     <h1 class="lead-1 animate__animated animate__fadeInLeft animate__slow">Somos Punto App</h1>
                     <h2 class="lead-2 animate__animated animate__fadeInLeft animate__slow">donde la ideas cobran vida</h2>
-                    <p class="animate__animated animate__fadeInLeft animate__slow">
+                    <p class="animate__animated animate__fadeInLeft animate__slow text-justify">
                         Somos Punto apps
                         Nos especializamos en construir sueños, ideas y llevarlas al punto ideal del éxito organziacional. Con más de 10 años de experiencia en el mercado, y con un equipo de excelentes profesionales, somos tu aliado ideal para desarrollo de software e innovación.
                         En nosotros encontrarás ese resplado de calidad, confianza e innovación, te invitamos a agendar una cita con nosotros.
                     </p>
                 </div>
 
-                <div class="us animate__animated animate__fadeInDown animate__slow">
+                <div class="us animate__animated animate__fadeInDown animate__slow d-none d-lg-block">
                     <img id="img-us" src="img/nosotros/01.png" alt="Hombre sonriente mirando fijamente">
                 </div>
+
+
             </div>
         </div>
     </main>
@@ -114,6 +145,8 @@
     </footer>
     <!-- Footer ends -->
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 </body>
 
